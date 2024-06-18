@@ -19,6 +19,7 @@
   margin: 0;
   padding: 0;
   display: flex;
+  flex-wrap: wrap;
   align-items: baseline;
 }
 
@@ -44,4 +45,17 @@
   border-radius: 12px;
   padding: 0 1rem;
   margin-left: 0.5rem;
+}
+
+@media (max-width: 768px) {
+  .header {
+    height: auto;
+    padding: 5% 10%;
+  }
+  .header li {
+    margin-bottom: 0.8rem;
+  }
+  .header a {
+    font-size: 1.1rem;
+  }
 }
